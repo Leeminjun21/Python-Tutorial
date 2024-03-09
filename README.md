@@ -45,3 +45,51 @@ Multiline Comments
 """
 print("Hello, World!")
 ```
+##Python Variables
+```언어
+x = 10
+y = "Min Jun"
+print(x)
+print(y)
+```
+다른 유형으로 변수를 설정할 수 있다 (int : 정수형 , str : 문자열)
+```언어
+x = 4       # 정수형으로 작성된 변수
+x = "Sally" # 문자열로 작성된 변수
+print(x)
+```
+문자열,정수형,실수형 등 원하는 데이터 유형으로 지정할 수 있다
+```언어
+x = str(3)    # x will be '3'
+y = int(3)    # y will be 3
+z = float(3)  # z will be 3.0
+```
+type() 함수를 사용하여 변수의 데이터 유형을 도출해낼 수 있다.
+```언어
+x = 5
+y = "John"
+print(type(x))
+print(type(y))
+```
+위의 경우 아래처럼 데이터 유형이 값으로 나온다.
+```언어
+<class 'int'>
+<class 'str'>
+```
+문자열 변수는 작은따옴표나 큰땅옵표를 사용하여 작성 가능
+변수의 이름은 대소문자를 구분하기 때문에 a,A 처럼 두 개의 변수를 설정할 수 있다.
+###Variable Names
+변수 이름은 문자나 밑줄 문자로 시작해야 합니다.
+변수 이름은 숫자로 시작할 수 없습니다.
+변수 이름에는 영숫자와 밑줄(Az, 0-9 및 _)만 포함할 수 있습니다.
+변수 이름은 대소문자를 구분합니다(age, Age 및 AGE는 세 가지 다른 변수입니다).
+```언어
+myvar = "MinJun"
+my_var = "MinJun"
+_my_var = "MinJun"
+myVar = "MinJun"
+MYVAR = "MinJun"
+myvar2 = "MinJun"
+```
+여러 변수에 대한 많은 값
+-
