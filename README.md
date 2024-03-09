@@ -16,3 +16,7 @@ if 5 > 2:
 if 5 > 2:
         print("Five is greater than two!") 
 ```
+Python Variables
+변수에 값을 할당하면 변수가 생성된다.
+x = 112
+y = "Hello, World!"
