@@ -166,6 +166,7 @@ print(type(x))
  `float` 실수 
  
  `complex` 복소수
+ 
  ##한 유형에서 다른 유형으로 변환: 
 
  ```언어
@@ -190,3 +191,6 @@ print(type(a))
 print(type(b))
 print(type(c))
 ```
+###Python Strings
+파이썬에서의 문자열은 작은따옴표나 큰따옴표로 묶인다.
+`안녕하세요`는 ``안녕하세요``와 같다
