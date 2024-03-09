@@ -25,7 +25,7 @@ y = "Hello, World!"
 ```
 Comment
 #을 이용해 주석을 달 수 있다.
-# 이것은 주석입니다
+#이것은 주석입니다
 ```언어
 print("Hello, World!")
 ```
@@ -103,7 +103,7 @@ print(y)
 print(z)
 ```
 컬렉션 압축 풀기
-# 목록 압축 풀기 : 
+###목록 압축 풀기 : 
 ```언어
 fruits = ["apple", "banana", "cherry"]
 x, y, z = fruits
@@ -113,14 +113,14 @@ print(x)
 print(y)
 print(z)
 ###Output Variables
-# print()함수는 변수를 출력한다.
+###print()함수는 변수를 출력한다.
 숫자의 경우 + 문자는 수학 연산자로 작동한다.
 ```언어
 x = 1
 y = 2
 print(x + y)
 ```
-# 함수에서 print()문자열과 숫자를 + 연산자와 결합하려고 하면 Python에서 오류를 표시한다.
+###함수에서 print()문자열과 숫자를 + 연산자와 결합하려고 하면 Python에서 오류를 표시한다.
 ```언어
 x = 5
 y = "John"
@@ -149,7 +149,7 @@ print(x, y)
 바이너리 유형:	`bytes`, `bytearray`, `memoryview`
 
 없음 유형:	`NoneType`
-# 데이터 유형 가져오기
+###데이터 유형 가져오기
 type()함수를 사용해서 데이터 유형을 가져올 수 있다.
 ```언어
 x = 5
@@ -204,13 +204,13 @@ print(a)
 ```
 ###Strings are Arrays
 
-# 위치 1의 문자을 가져온다.(첫 번째 문자의 위치는 0임을 기억할것)
+#위치 1의 문자을 가져온다.(첫 번째 문자의 위치는 0임을 기억할것)
 ```언어
 a = "안녕, 반가워
 print(a[1])
 ```
 =녕
-# `for` 루프를 사용하여 문자열의 문자를 반복할 수 있다.
+#`for` 루프를 사용하여 문자열의 문자를 반복할 수 있다.
 ```언어
 for x in "catia":
   print(x)
