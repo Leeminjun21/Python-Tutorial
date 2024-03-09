@@ -146,9 +146,8 @@ x = 5
 print(type(x))
 ```
 <class 'int'>
-##Python Numbers
-
+  ##Python Numbers
 파이썬에는 세 가지 숫자 유형이 있다.
-`int` 정수
-`float` 실수 
-`complex` 복소수
+ `int` 정수
+ `float` 실수 
+ `complex` 복소수
