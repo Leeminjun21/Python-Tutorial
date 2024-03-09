@@ -131,11 +131,23 @@ print(x, y)
 ```
 ##Python Data Types
 
-텍스트 유형:	`str`
-숫자 유형:	`int`, `float`, `complex`
+문자열 유형:	`str`
+숫자(정수,실수) 유형:	`int`, `float`, `complex`
 시퀀스 유형:	`list`, `tuple`, `range`
 매핑 유형:	`dict`
 세트 유형:	`set`,`frozenset`
 부울 유형:	`bool`
 바이너리 유형:	`bytes`, `bytearray`, `memoryview`
 없음 유형:	`NoneType`
+# 데이터 유형 가져오기
+type()함수를 사용해서 데이터 유형을 가져올 수 있다.
+```언어
+x = 5
+print(type(x))
+```
+<class 'int'>
+##Python Numbers
+파이썬에는 세 가지 숫자 유형이 있다.
+`int` 정수
+`float` 실수 
+`complex` 복소수
