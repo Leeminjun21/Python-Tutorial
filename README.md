@@ -92,4 +92,41 @@ MYVAR = "MinJun"
 myvar2 = "MinJun"
 ```
 여러 변수에 대한 많은 값
--
+한 줄로 여러 변수에 값을 할당할 수 있다.
+```언어
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+```
+컬렉션 압축 풀기
+# 목록 압축 풀기 : 
+```언어
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+```
+
+print(y)
+print(z)
+###Output Variables
+# print()함수는 변수를 출력한다.
+숫자의 경우 + 문자는 수학 연산자로 작동한다.
+```언어
+x = 1
+y = 2
+print(x + y)
+```
+# 함수에서 print()문자열과 숫자를 + 연산자와 결합하려고 하면 Python에서 오류를 표시한다.
+```언어
+x = 5
+y = "John"
+print(x + y)
+```
+함수에서 여러 변수를 출력하는 가장 좋은 방법은 print()변수를 쉼표로 구분하는 것이다. 이는 다양한 데이터 유형도 지원한다.
+```언어
+x = 7
+y = "MinJun"
+print(x, y)
+```
+##Python Data Types
