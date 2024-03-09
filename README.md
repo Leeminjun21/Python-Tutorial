@@ -131,6 +131,7 @@ print(x, y)
 ```
 ##Python Data Types
 텍스트 유형:	`str`
+
 숫자 유형:	`int`, `float`, `complex`
 시퀀스 유형:	`list`, `tuple`, `range`
 매핑 유형:	`dict`
