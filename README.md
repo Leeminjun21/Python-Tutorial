@@ -29,7 +29,7 @@ Comment
 ```언어
 print("Hello, World!")
 ```
-##Python Comments
+## Python Comments
 주석은 #으로 시작하며 그 뒤는 파이썬에서 무시된다.
 ```언어
 print("Hello, World!") # 주석입니다
@@ -45,7 +45,7 @@ Multiline Comments
 """
 print("Hello, World!")
 ```
-##Python Variables
+## Python Variables
 ```언어
 x = 10
 y = "Min Jun"
@@ -78,7 +78,7 @@ print(type(y))
 ```
 문자열 변수는 작은따옴표나 큰땅옵표를 사용하여 작성 가능
 변수의 이름은 대소문자를 구분하기 때문에 a,A 처럼 두 개의 변수를 설정할 수 있다.
-###Variable Names
+### Variable Names
 변수 이름은 문자나 밑줄 문자로 시작해야 합니다.
 
 변수 이름은 숫자로 시작할 수 없습니다.
@@ -103,7 +103,7 @@ print(y)
 print(z)
 ```
 컬렉션 압축 풀기
-###목록 압축 풀기 : 
+### 목록 압축 풀기 : 
 ```언어
 fruits = ["apple", "banana", "cherry"]
 x, y, z = fruits
@@ -112,15 +112,15 @@ print(x)
 
 print(y)
 print(z)
-###Output Variables
-###print()함수는 변수를 출력한다.
+### Output Variables
+### print()함수는 변수를 출력한다.
 숫자의 경우 + 문자는 수학 연산자로 작동한다.
 ```언어
 x = 1
 y = 2
 print(x + y)
 ```
-###함수에서 print()문자열과 숫자를 + 연산자와 결합하려고 하면 Python에서 오류를 표시한다.
+### 함수에서 print()문자열과 숫자를 + 연산자와 결합하려고 하면 Python에서 오류를 표시한다.
 ```언어
 x = 5
 y = "John"
@@ -132,7 +132,7 @@ x = 7
 y = "MinJun"
 print(x, y)
 ```
-##Python Data Types
+## Python Data Types
 
 문자열 유형:	`str`
 
@@ -149,7 +149,7 @@ print(x, y)
 바이너리 유형:	`bytes`, `bytearray`, `memoryview`
 
 없음 유형:	`NoneType`
-###데이터 유형 가져오기
+### 데이터 유형 가져오기
 type()함수를 사용해서 데이터 유형을 가져올 수 있다.
 ```언어
 x = 5
@@ -157,7 +157,7 @@ print(type(x))
 ```
 <class 'int'>
 
-  ##Python Numbers
+  ## Python Numbers
   
 파이썬에는 세 가지 숫자 유형이 있다.
 
@@ -167,7 +167,7 @@ print(type(x))
  
  `complex` 복소수
  
- ##한 유형에서 다른 유형으로 변환: 
+ ## 한 유형에서 다른 유형으로 변환: 
 
  ```언어
 x = 1    # int
@@ -191,7 +191,7 @@ print(type(a))
 print(type(b))
 print(type(c))
 ```
-##Python Strings
+## Python Strings
 
 파이썬에서의 문자열은 작은따옴표나 큰따옴표로 묶인다.
 
@@ -202,7 +202,7 @@ print(type(c))
 a = "고마워"
 print(a)
 ```
-###Strings are Arrays
+### Strings are Arrays
 
 #위치 1의 문자을 가져온다.(첫 번째 문자의 위치는 0임을 기억할것)
 ```언어
@@ -210,8 +210,33 @@ a = "안녕, 반가워
 print(a[1])
 ```
 =녕
+
 #`for` 루프를 사용하여 문자열의 문자를 반복할 수 있다.
 ```언어
 for x in "catia":
   print(x)
 ```
+### 문자열 길이
+
+#`len()`함수를 사용
+```언어
+a = "Hello, World!"
+print(len(a))
+```
+=13
+### Check String
+
+`in`과 `not in`을 사용하여 텍스트에 원하는 단어가 있는지 확인 가능하다
+```언어
+txt = "안녕하세요, 반갑습니다"
+print("고마워요" not in txt)
+```
+= True
+
+`if` 명령문을 통해 활용 가능
+```언어
+txt = "안녕하세요, 반갑습니다"
+if "고마워요" not in txt:
+    print("No, '고마워요' is NOT present.")
+```
+= 
