@@ -130,3 +130,11 @@ y = "MinJun"
 print(x, y)
 ```
 ##Python Data Types
+텍스트 유형:	`str`
+숫자 유형:	`int`, `float`, `complex`
+시퀀스 유형:	`list`, tuple, range
+매핑 유형:	dict
+세트 유형:	set,frozenset
+부울 유형:	bool
+바이너리 유형:	bytes, bytearray, memoryview
+없음 유형:	NoneType
