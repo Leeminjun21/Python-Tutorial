@@ -191,7 +191,27 @@ print(type(a))
 print(type(b))
 print(type(c))
 ```
-###Python Strings
+##Python Strings
 
 파이썬에서의 문자열은 작은따옴표나 큰따옴표로 묶인다.
+
 `안녕하세요`는 ``안녕하세요``와 같다
+
+#변수에 문자열 할당
+```언어
+a = "고마워"
+print(a)
+```
+###Strings are Arrays
+
+# 위치 1의 문자을 가져온다.(첫 번째 문자의 위치는 0임을 기억할것)
+```언어
+a = "안녕, 반가워
+print(a[1])
+```
+=녕
+# `for` 루프를 사용하여 문자열의 문자를 반복할 수 있다.
+```언어
+for x in "catia":
+  print(x)
+```
