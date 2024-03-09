@@ -80,8 +80,11 @@ print(type(y))
 변수의 이름은 대소문자를 구분하기 때문에 a,A 처럼 두 개의 변수를 설정할 수 있다.
 ###Variable Names
 변수 이름은 문자나 밑줄 문자로 시작해야 합니다.
+
 변수 이름은 숫자로 시작할 수 없습니다.
+
 변수 이름에는 영숫자와 밑줄(Az, 0-9 및 _)만 포함할 수 있습니다.
+
 변수 이름은 대소문자를 구분합니다(age, Age 및 AGE는 세 가지 다른 변수입니다).
 ```언어
 myvar = "MinJun"
@@ -132,12 +135,19 @@ print(x, y)
 ##Python Data Types
 
 문자열 유형:	`str`
+
 숫자(정수,실수) 유형:	`int`, `float`, `complex`
+
 시퀀스 유형:	`list`, `tuple`, `range`
+
 매핑 유형:	`dict`
+
 세트 유형:	`set`,`frozenset`
+
 부울 유형:	`bool`
+
 바이너리 유형:	`bytes`, `bytearray`, `memoryview`
+
 없음 유형:	`NoneType`
 # 데이터 유형 가져오기
 type()함수를 사용해서 데이터 유형을 가져올 수 있다.
@@ -156,3 +166,27 @@ print(type(x))
  `float` 실수 
  
  `complex` 복소수
+ ##한 유형에서 다른 유형으로 변환: 
+
+ ```언어
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+
+#convert from int to float:
+a = float(x)
+
+#convert from float to int:
+b = int(y)
+
+#convert from int to complex:
+c = complex(x)
+
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+print(type(b))
+print(type(c))
+```
